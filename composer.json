@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/pestphp-pest-plugin-arch",
+    "description": "Tyhp type definitions for pestphp/pest-plugin-arch 4.0.2.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "4.0.2",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/pestphp-pest-plugin-arch-impl": "~4.0.2.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/pestphp-pest-plugin-arch-impl"
+        }
+    }
+}
